@@ -176,12 +176,12 @@ body {
   width: 80%;
 }
 .box-c-text a {
-  color: var(--color-extra);
+  color: var(--color-primary);
   text-decoration: none;
   transition: color 0.3s ease-in;
 }
 .box-c-text a:hover {
-  color: var(--color-primary);
+  color: var(--color-extra);
   text-decoration: none;
   transition: color 0.3s ease-in;
 }
@@ -358,7 +358,6 @@ body {
   border: 1px #dddede;
   border-radius: 8px 0 0 8px;
   background-color: #f7f7f7;
-  -webkit-transition: border 0.3s ease-in;
   transition: border 0.3s ease-in;
   font-size: 16px;
   font-weight: 300;
